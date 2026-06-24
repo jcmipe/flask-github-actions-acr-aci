@@ -66,5 +66,6 @@ es temporal y debe regenerarse si el despliegue devuelve HTTP 401.
 ## URL pública
 
 ```text
-http://<DNS_NAME_LABEL>.westeurope.azurecontainer.io:5000/
+http://flask-e4-jcmipe.westeurope.azurecontainer.io:5000/
+http://flask-e4-jcmipe.westeurope.azurecontainer.io:5000/health
 ```
