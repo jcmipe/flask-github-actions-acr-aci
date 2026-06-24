@@ -31,7 +31,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run unit tests with pytest
-        run: pytest -q
+        run: python -m pytest -q
 
       - name: Login to Azure Container Registry
         uses: azure/docker-login@v2
