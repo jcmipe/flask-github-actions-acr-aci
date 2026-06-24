@@ -87,7 +87,7 @@ jobs:
                 {
                   "name": "${{ env.CONTAINER_NAME }}",
                   "properties": {
-                    "image": "${{ env.IMAGE_FINAL_TAG }}",
+                    "image": "$IMAGE_FINAL_TAG",
                     "ports": [
                       {
                         "port": ${{ env.PORT }},
